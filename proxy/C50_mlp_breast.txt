@@ -1,0 +1,8 @@
+19
+880.8,0.136,36.46,-2.,0.205,-2.,0.110,-2.,-2.,25.62,806.9,-2.,-2.,-2.,0.064,19.54,-2.,-2.,-2.
+23,27,13,-2,28,-2,27,-2,-2,21,23,-2,-2,-2,6,1,-2,-2,-2
+1,2,3,-1,5,-1,7,-1,-1,10,11,-1,-1,-1,15,16,-1,-1,-1
+14,9,4,-1,6,-1,8,-1,-1,13,12,-1,-1,-1,18,17,-1,-1,-1
+1,1,1,1,1,0,1,1,0,1,1,1,0,0,1,1,1,0,0
+mean radius,mean texture,mean perimeter,mean area,mean smoothness,mean compactness,mean concavity,mean concave points,mean symmetry,mean fractal dimension,radius error,texture error,perimeter error,area error,smoothness error,compactness error,concavity error,concave points error,symmetry error,fractal dimension error,worst radius,worst texture,worst perimeter,worst area,worst smoothness,worst compactness,worst concavity,worst concave points,worst symmetry,worst fractal dimension
+malignant,benign

@@ -1,0 +1,8 @@
+7
+0.492,0.477,-2.,-2.,0,503,-2.,-2.
+2,2,-2,-2,2,-2,-2
+1,2,-1,-1,5,-1,-1
+4,3,-1,-1,5,-1,-1
+0,0,0,0,1,1,1
+area,perimeter,majoraxis,minoraxis,eccentricity,convex_area,extent
+0,1

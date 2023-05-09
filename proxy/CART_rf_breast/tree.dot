@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="X[23] <= 884.55\ngini = 0.466\nsamples = 398\nvalue = [147, 251]\nclass = begine", fillcolor="#add6f4"] ;
+1 [label="X[27] <= 0.136\ngini = 0.156\nsamples = 269\nvalue = [23, 246]\nclass = begine", fillcolor="#4ca6e7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X[13] <= 36.465\ngini = 0.048\nsamples = 242\nvalue = [6, 236]\nclass = begine", fillcolor="#3e9fe6"] ;
+1 -> 2 ;
+3 [label="gini = 0.017\nsamples = 227\nvalue = [2, 225]\nclass = begine", fillcolor="#3b9ee5"] ;
+2 -> 3 ;
+8 [label="X[19] <= 0.004\ngini = 0.391\nsamples = 15\nvalue = [4, 11]\nclass = begine", fillcolor="#81c1ee"] ;
+2 -> 8 ;
+9 [label="gini = 0.5\nsamples = 8\nvalue = [4, 4]\nclass = maligent", fillcolor="#ffffff"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 7\nvalue = [0, 7]\nclass = begine", fillcolor="#399de5"] ;
+8 -> 10 ;
+11 [label="X[21] <= 25.67\ngini = 0.466\nsamples = 27\nvalue = [17, 10]\nclass = maligent", fillcolor="#f4cbad"] ;
+1 -> 11 ;
+12 [label="X[20] <= 15.6\ngini = 0.375\nsamples = 12\nvalue = [3, 9]\nclass = begine", fillcolor="#7bbeee"] ;
+11 -> 12 ;
+13 [label="gini = 0.0\nsamples = 7\nvalue = [0, 7]\nclass = begine", fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label="gini = 0.48\nsamples = 5\nvalue = [3, 2]\nclass = maligent", fillcolor="#f6d5bd"] ;
+12 -> 14 ;
+15 [label="gini = 0.124\nsamples = 15\nvalue = [14, 1]\nclass = maligent", fillcolor="#e78a47"] ;
+11 -> 15 ;
+18 [label="X[27] <= 0.113\ngini = 0.075\nsamples = 129\nvalue = [124, 5]\nclass = maligent", fillcolor="#e68641"] ;
+0 -> 18 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+19 [label="X[1] <= 19.83\ngini = 0.473\nsamples = 13\nvalue = [8, 5]\nclass = maligent", fillcolor="#f5d0b5"] ;
+18 -> 19 ;
+20 [label="gini = 0.408\nsamples = 7\nvalue = [2, 5]\nclass = begine", fillcolor="#88c4ef"] ;
+19 -> 20 ;
+21 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]\nclass = maligent", fillcolor="#e58139"] ;
+19 -> 21 ;
+22 [label="gini = 0.0\nsamples = 116\nvalue = [116, 0]\nclass = maligent", fillcolor="#e58139"] ;
+18 -> 22 ;
+}

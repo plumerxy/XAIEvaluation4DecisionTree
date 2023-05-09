@@ -1,0 +1,39 @@
+Decision tree:
+
+
+
+worst.area 23 > 880.8:
+
+:...mean.concavity 6 > 0.06387: 0 (116)
+
+:   mean.concavity 6 <= 0.06387:
+
+:   :...mean.texture 1 <= 19.54: 1 (6/1)
+
+:       mean.texture 1 > 19.54: 0 (7)
+
+worst.area 23 <= 880.8:
+
+:...worst.concave.points 27 > 0.1357:
+
+    :...worst.texture 21 > 25.62: 0 (15/1)
+
+    :   worst.texture 21 <= 25.62:
+
+    :   :...worst.area 23 <= 806.9: 1 (9)
+
+    :       worst.area 23 > 806.9: 0 (3)
+
+    worst.concave.points 27 <= 0.1357:
+
+    :...area.error 13 <= 36.46: 1 (227)
+
+        area.error 13 > 36.46:
+
+        :...worst.symmetry 28 <= 0.2048: 0 (2)
+
+            worst.symmetry 28 > 0.2048:
+
+            :...worst.concave.points 27 <= 0.1099: 1 (11)
+
+                worst.concave.points 27 > 0.1099: 0 (2)

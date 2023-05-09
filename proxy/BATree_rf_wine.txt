@@ -1,0 +1,8 @@
+13
+3.935,1.415,-2.,734.0,-2.,-2.,627.5,2.23,-2.,-2.,1010.0,-2.,-2.
+9,5,-2,12,-2,-2,12,11,-2,-2,12,-2,-2
+1,2,-1,4,-1,-1,7,8,-1,-1,11,-1,-1
+6,3,-1,5,-1,-1,10,9,-1,-1,12,-1,-1
+1,1,1,1,1,1,0,2,2,1,0,2,0
+alcohol,malic acid,ash,alcalinityofash,magnesium,total phenols,flavanoids,nonflavanoid phenols,proanthocyanins,color intensity,hue,od280,proline
+0,1,2
